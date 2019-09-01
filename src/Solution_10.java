@@ -1,0 +1,1 @@
+/** * Created by mingkunyu on 2019-09-01 */public class Solution_10 {    public static  int JumpFloorII(int target) {        return 1 << (target-1);    }    public static void main(String[] args) {        System.out.println(JumpFloorII(3));    }}
