@@ -1,1 +1,0 @@
-/** * Created by mingkunyu on 2019-09-01 * 输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示。 */public class Solution_12 {    public static int NumberOf1(int n) {        return Integer.bitCount(n);    }    public static void main(String[] args) {        System.out.println(NumberOf1(2));    }}
